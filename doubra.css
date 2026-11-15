@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #eaf4ff, #ffffff);
+    min-height: 100vh;
+    padding: 35px 18px;
+    color: #172b4d;
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+}
+
+.support-card {
+    background: #ffffff;
+    padding: 45px 35px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 12px 45px rgba(0, 85, 180, 0.10);
+    border: 1px solid #e1efff;
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto 20px;
+    background: #e6f2ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+}
+
+h1 {
+    font-size: 38px;
+    color: #0755b8;
+    margin-bottom: 14px;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 180px;
+    padding: 18px;
+    border: 2px solid #d8e9ff;
+    border-radius: 14px;
+    font-size: 16px;
+    font-family: inherit;
+    resize: vertical;
+    outline: none;
+    background: #fafdff;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+textarea:focus {
+    border-color: #1479e8;
+    box-shadow: 0 0 0 4px rgba(20, 121, 232, 0.10);
+}
+
+button {
+    width: 100%;
+    padding: 17px;
+    background: linear-gradient(135deg, #0878e8, #0755b8);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 90, 200, 0.25);
+}
+
+.result {
+    margin-top: 25px;
+    padding: 25px;
+    background: #edf7ff;
+    border: 1px solid #cce5ff;
+    border-radius: 15px;
+}
+
+.result h3 {
+    color: #0755b8;
+    margin-bottom: 12px;
+}
+
+.result p {
+    color: #64748b;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+#telegramBtn {
+    display: block;
+    background: #229ED9;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#telegramBtn:hover {
+    background: #087bb8;
+    transform: translateY(-2px);
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    color: #94a3b8;
+    font-size: 13px;
+    margin-top: 28px;
+}
+
+/* REVIEWS SECTION */
+
+.reviews-section {
+    margin-top: 35px;
+    padding: 35px 25px;
+    background: white;
+    border-radius: 22px;
+    box-shadow: 0 12px 40px rgba(0, 85, 180, 0.08);
+    border: 1px solid #e1efff;
+}
+
+.reviews-section h2 {
+    text-align: center;
+    color: #0755b8;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.reviews-subtitle {
+    text-align: center;
+    color: #8190a5;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.review-card {
+    background: #f4f9ff;
+    border: 1px solid #e0edff;
+    padding: 22px;
+    border-radius: 15px;
+    margin-bottom: 16px;
+    transition: 0.3s;
+}
+
+.review-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 85, 180, 0.08);
+}
+
+.stars {
+    color: #f5ad25;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.review-card p {
+    color: #52647c;
+    line-height: 1.7;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.review-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.review-avatar {
+    width: 42px;
+    height: 42px;
+    background: #dceeff;
+    color: #0755b8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.review-author h4 {
+    color: #172b4d;
+    font-size: 14px;
+}
+
+.review-author span {
+    color: #8493a8;
+    font-size: 12px;
+}
+
+.demo-label {
+    display: inline-block;
+    font-size: 11px;
+    color: #0755b8;
+    background: #e1efff;
+    padding: 5px 9px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    .support-card {
+        padding: 35px 20px;
+    }
+
+    h1 {
+        font-size: 31px;
+    }
+
+    .reviews-section {
+        padding: 28px 17px;
+    }
+}
